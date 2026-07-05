@@ -1,1 +1,0 @@
-# bot-licencias-server

@@ -4,8 +4,26 @@ app = Flask(__name__)
 
 # AQUI METES TODAS LAS KEYS QUE VENDAS
 KEYS_VALIDAS = [
-    "BC61DF6E-56F5-47FF-AAAA-BBBB", # KEY de prueba 1
-    "12345678-90AB-CDEF-1234-567890" # KEY de prueba 2
+   "BT-VIP-001-2026",
+    "BT-VIP-002-2026",
+    "BT-VIP-003-2026",
+    "BT-VIP-004-2026",
+    "BT-VIP-005-2026",
+    "BT-VIP-006-2026",
+    "BT-VIP-007-2026",
+    "BT-VIP-008-2026",
+    "BT-VIP-009-2026",
+    "BT-VIP-010-2026",
+    "BT-PRO-011-2026",
+    "BT-PRO-012-2026",
+    "BT-PRO-013-2026",
+    "BT-PRO-014-2026",
+    "BT-PRO-015-2026",
+    "BT-PRO-016-2026",
+    "BT-PRO-017-2026",
+    "BT-PRO-018-2026",
+    "BT-PRO-019-2026",
+    "BT-PRO-020-2026"
 ]
 
 @app.route('/check_key.php')  # <- lo dejamos igual para que tu bot no cambie

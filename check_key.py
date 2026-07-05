@@ -9,7 +9,7 @@ DATABASE_URL = os.environ.get('DATABASE_URL')
 def get_db():
     return psycopg2.connect(DATABASE_URL, sslmode='require')
 
-@app.route('/check_key.php')
+@app.route('/check_key.')
 def clave_de_verificacion():
     llave = request.args.get('llave', '')
     telegram_id = request.args.get('id', '')
